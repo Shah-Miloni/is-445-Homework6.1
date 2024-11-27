@@ -26,7 +26,7 @@
 ### **Writeup for Visualization 1**
 
 #### Description  
-This line chart visualizes the yearly trends of license counts by license type. The x-axis represents the years, while the y-axis shows the total number of licenses issued for each year. The user can select a specific license type from a dropdown, and the chart dynamically updates to display the trend for that selected license type over time.
+This line chart visualizes the yearly trends of license types. The x-axis represents the years, while the y-axis shows the total number of licenses issued for each year. The user can select a specific license type from a dropdown, and the chart dynamically updates to display the trend for that selected license type over time.
 #### Encoding Types  
 - **X-axis (Ordinal):** Represents the years, which are shown as categorical variables to visualize yearly trends.
 - **Y-axis Quantitative)**: Represents the count of licenses issued for each year.
@@ -64,11 +64,10 @@ This bar chart visualizes the top 10 cities based on the selected License Status
 #### Encoding Types  
 - **X-axis (Nominal):** Displays city names, representing the categorical variable of cities.
 - **Y-axis (Quantitative):** Represents the count of licenses with the selected status in each city.
-- **Color Nominal):** Differentiates cities using unique colors to enhance visual distinction.
 - **Tooltip:** Shows the city name and corresponding license count for the selected status when hovering over the bars.
 - 
 #### Color Scheme  
-A categorical color palette is applied to visually differentiate the cities in the chart. This ensures that each city is represented with a distinct color
+A color palette is applied to visually differentiate the cities in the chart. This ensures that each city is represented with a distinct color
 
 #### Data Transformations  
 The dataset was filtered based on the selected License Status to focus on a specific status. Afterward, the data was grouped by City, and the count of licenses for the selected status in each city was calculated. The top 10 cities were then sorted by the count of licenses and displayed on the chart.
