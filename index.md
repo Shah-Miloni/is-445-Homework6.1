@@ -65,7 +65,7 @@ This bar chart visualizes the top 10 cities based on the selected License Status
 - **X-axis (Nominal):** Displays city names, representing the categorical variable of cities.
 - **Y-axis (Quantitative):** Represents the count of licenses with the selected status in each city.
 - **Tooltip:** Shows the city name and corresponding license count for the selected status when hovering over the bars.
-- 
+  
 #### Color Scheme  
 A color palette is applied to visually differentiate the cities in the chart. This ensures that each city is represented with a distinct color
 
