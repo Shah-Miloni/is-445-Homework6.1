@@ -29,13 +29,13 @@ selected_license_type = st.selectbox("Select a license type:", license_types)
 license_type_counts = df_time[df_time['License Type'] == selected_license_type].groupby(['License Type', 'Year']).size().reset_index(name='Count')
 
 # Creating a line chart
-license_type_line_chart = alt.Chart(license_type_counts).mark_line(point=True).encode(
+line_chart = alt.Chart(license_type_counts).mark_line(point=True).encode(
     x=alt.X('Year:O', title="Year"),
     y=alt.Y('Count:Q', title="Number of Licenses"),
     tooltip=['Year', 'Count']
 ).properties(title=f"Yearly License Counts for {selected_license_type}", width=800, height=400)
 
-st.altair_chart(license_type_line_chart)
+st.altair_chart(line_chart)
 
 #  Top 10 Cities by License Status
 st.header("Top 10 Cities for License Status")
@@ -63,3 +63,8 @@ bar_chart = alt.Chart(city_counts).mark_bar().encode(
 )
 
 st.altair_chart(bar_chart, use_container_width=True)
+
+line_chart.save(r'C:/Users/milonishah/hw6.1/assets/visualizations/chart1.json')
+
+bar_chart.save(r'C:/Users/milonishah/hw6.1/assets/visualizations/chart2.json')
+ 
