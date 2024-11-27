@@ -64,7 +64,6 @@ bar_chart = alt.Chart(city_counts).mark_bar().encode(
 
 st.altair_chart(bar_chart, use_container_width=True)
 
-line_chart.save(r'C:/Users/milonishah/hw6.1/assets/visualizations/chart1.json')
+line_chart.save('chart1.json')
+bar_chart.save('chart2.json')
 
-bar_chart.save(r'C:/Users/milonishah/hw6.1/assets/visualizations/chart2.json')
- 
