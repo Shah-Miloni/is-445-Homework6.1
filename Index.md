@@ -46,6 +46,10 @@ The ability to select a license type helps users focus on specific trends and ob
 While the same dataset was used, this visualization is not the same as previous homework. It provides a different view by focusing on yearly trends for each license type.
 
 <div id="chart2-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
 
 <script>
   vegaEmbed('#chart2-container', 'chart2.json').catch(console.error);
@@ -76,5 +80,6 @@ A dropdown menu allows the user to select a specific License Status. Upon select
 The dropdown filter enhances the interactivity of the visualization by enabling users to focus on specific license statuses, making it easier to analyze trends and distributions of license counts across cities.
 
 #### Overlaps with Homework #7
-While similar in the use of a bar chart, this visualization offers a fresh perspective by focusing on the distribution of licenses based on status, as opposed to the license type count analysis from previous homework.
+While this visualization too uses a bar chart like one of the visualizations in the previous homeworks, it offers a fresh perspective by focusing on the distribution of licenses based on status.
+
 ---
