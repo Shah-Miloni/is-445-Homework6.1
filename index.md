@@ -5,7 +5,7 @@
 **Submitted By Miloni Shah (mkshah4@illinois.edu)**
 
 **The Data:** [Licenses Dataset](https://github.com/UIUC-iSchool-DataViz/is445_data/raw/main/licenses_fall2022.csv)  
-**The Analysis:** [Jupyter Notebook Analysis](https://github.com/Shah-Miloni/is-445-Homework6.1/blob/main/Workbook.py)
+**The Analysis:** [Jupyter Notebook Analysis](https://github.com/Shah-Miloni/is-445-Homework6.1/blob/main/Workbook.ipynb)
 
 ---
 
